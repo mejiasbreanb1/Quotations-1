@@ -1,0 +1,18 @@
+<!-- Author: Chris Peterson -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Quote</title>
+</head>
+<body>
+    <h3>Add a Quote</h3>
+    <form action="http://localhost:63342/CSC337/quotations/controller.php" method="get">
+        Quote:<textarea type="text" name="quote" rows="6" cols="100" required></textarea><br/>
+        Author:<input type="text" name="author"  required><br/>
+        <input type="hidden" name="mode" value="show">
+        <input type="submit" value="Save Quotation">
+    </form>
+</body>
+</html>
